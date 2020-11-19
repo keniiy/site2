@@ -22,7 +22,7 @@ def contact(request):
     context = {
 
     }
-    return render(request, 'pages/contact.html', context)
+    return render(request, 'pages/contact-us.html', context)
 
 
 def book(request):
