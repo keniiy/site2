@@ -25,7 +25,7 @@ SECRET_KEY = 'c)83_zdhm3w@js1bo_x=%rtz(8+g*r9um&nqleu8k9-k!qoe5e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['trainmyslave.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['trainmyslave.herokuapp.com', 'www.trainmyslave.com', 'trainmyslave.com', '127.0.0.1']
 
 
 # Application definition
@@ -92,7 +92,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
     {
         'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
-    },
+    }
     {
         'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
     },
