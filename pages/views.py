@@ -25,8 +25,14 @@ def contact(request):
     return render(request, 'pages/contact-us.html', context)
 
 
-def book(request):
+def comment(request):
     context = {
 
     }
-    return render(request, 'pages/book.html', context)
+    return render(request, 'pages/comment.html', context)
+
+def gallery(request):
+    context = {
+
+    }
+    return render(request, 'pages/gallery.html', context)
